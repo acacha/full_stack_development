@@ -16,9 +16,183 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Prova</section>
-				<section>Slide 2</section>
-				<section>Slide 3</section>
+				<section data-markdown>
+					<textarea data-template>
+					# Full Stack Development
+
+					A full-stack developer is a (web) developer or engineer who works with both the ***front and back ends*** of a website or application
+
+					FS developer can manage projects that involve:
+					- Backend development
+					- Fontend development
+					</textarea>
+
+				</section>
+				<section>
+					<h2>SERVER-CLIENT</h2>
+						Client–server model is a distributed application structure that partitions tasks or workloads between the providers of a resource or service, called servers, and service requesters, called clients.
+					<img height="320" src="/img/client-server-model.svg.png" alt="Tux, the Linux mascot">
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## SERVERS
+						- Most run on Linux
+						- Multiple services on same server (Web Server, Database Server)
+						- Or multiple servers with diferent services
+						- SERVER-LESS Solutions -> Amazon Web Services -> Laravel Vapor
+						- Type of code: backend code (database, domain logic)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## SERVER TOOLS
+						- Local/fake servers: serve/http-server
+						- Ubuntu Linux Server
+						- Cloud Solutions: Linode, Digital Ocean, Amazon, Hertner
+						- Laravel Forge: manage servers with Laravel (or other systems)
+						- Laravel Vapor: Tool for Serverless solutions with Amazon
+						- CDN :Content Development Networks
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## CLIENTS
+						- Multiple OS operating systems (Linux, MacOS, Windows, Android, IOS)
+						- All OS have at least on Browser -> web apps as most common multiplatform solution
+						- Type of code: User Interface Code
+						- CLI (Command Line Interface) is also a UI (not graphical)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## PROTOCOLS (HTTP)
+						Client and Server needs communication PROTOCOL
+
+						With WWW (World Wide Web) boom HTTP IS THE KING PROTOCOL
+						- Client : Web Browser (aka User Agent)
+						- Server: Web server software (Apache, Nginx)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## WORLD WIDE WEB and INTERNET
+
+						WWW is a  set of tools for web pages
+						- HTTP, HTML,Client-Server: Web browsers / Web Servers
+						- WWW includes CSS and Javascript
+						- Tim Berners Lee in 1991
+						- WWW use Internet as NETWORK (TCP/IP, Ethernet)
+						- WWW is no equals to INTERNET
+						- INTERNET is mode than WWW (Email, FTP, SSH...)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## DINAMIC VS STATIC
+
+						Dinamic is always related with code.
+
+						Static servers:
+						- Don't use any programming Language in server side
+						- Serves assets (static files)
+						Web Servers
+						- Apache, Nginx are static servers but can be dinamic using plugins like php-fm
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## DEVELOPMENT PLATFORMS
+
+						- **Web App**: runs on Web Browser (any OS with a Browser)
+						- **Mobile Native Apps**: Runs on Android, Ios, Windows Mobile...
+						- **Destop apps**: Runs on OS: Linux, Windows, MacOS
+
+						Multiplatform development: develop and app for multiple platforms.
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## BACKEND DEVELOPMENT
+
+						Also know as (aka) SERVER SIDE DEVELOPMENT
+
+						- Code runs on **server** (server Side)
+						- Server Side code is needed on **MOST APPS**
+						- **Secure** Database (users, domain data, etc)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## Web Apps on BACKEND
+						- Client-server protocol -> HTTP
+						- Code runs on HTTP SERVER (Apache, NGINX) using modules (ex. php-fm)
+						- Languages: PHP, Javascript (NodeJS), Java, Python (most languages support backend)
+						- Server side code responsible of Database/Model code
+						- But server side code can also manage View Code (Dinamic generation of UI)
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## Mobile and Desktop Apps BACKEND
+						- Server side code responsible of Database/Model code
+						- HTTP: REST API (JSON O XML). Runs on HTTP Server with PHP, JAVA, NodeJS...
+						- Other Remote Procedures are possible (GraphQL, XML-RP)
+						- Server Side Code IS NOT RESPONSIBLE OF USER INTERFACE
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## FRONTEND DEVELOPMENT
+
+						Also know as (aka) CLIENT SIDE DEVELOPMENT
+
+						- Code runs on **client** (client side)
+
+						Programming Languages depends on Platform
+						- WEB APPS: CLIENT = BROWSER -> User Interface -> HTML, CSS and Javascript
+						- DESKTOP AND MOBILE APPS: POUPORRI! -> Every platform has multiple options
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## ASSETS | STATIC CONTENT
+
+						NO-DINAMIC Content (NO CODE) -> Images, Videos, Binary documents (PDF, Executables)
+
+						NOTE! ON SERVER SIDE:
+
+						All files not executed on server side (.css | .js (client), .html) are considered ASSETS
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## USER INTERFACE
+
+						TYPES:
+						- WEB (BROWSER): HTML, CSS, JAVASCRIPT
+						- OS/PLATFORM SPECIFIC: Android (XML, Jetpack Compose), Desktop (Gnome, KDE, ElectronJS)
+
+						RENDERING
+
+						- SERVER SIDE RENDER (SSR)
+						- CLIENT SIDE RENDER (CSR)
+
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						## FULL STACK EXAMPLES
+
+						- WEB APP MOSTLY BACKEND -> Laravel (PHP) with more or less Javascript Code
+						- WEB APP WITH SEPARATED BACKEND/FRONTEND CODE ->Laravel API -> NuxtJS Client
+						- MOBILE APP -> Laravel API -> IOnic
+						- DESKTOP APP -> ElectronJS
+						- FULLSTACK TOOLS: Laravel Livewire | Laravel InertiaJS
+
+					</textarea>
+				</section>
 			</div>
 		</div>
 
